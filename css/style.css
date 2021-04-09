@@ -22,7 +22,8 @@ body {
 }
 
 .accordion-container {
-  width: 87%;
+  width: 89%;
+  margin-bottom: 20px;
 }
 
 .accordion-container h1 {
