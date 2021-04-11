@@ -5,13 +5,26 @@ body {
   font-family: "Kumbh Sans", sans-serif;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  margin-top: 106px;
+}
+
 .wrapper {
-  margin-top: 5.5vh;
+  /* margin-top: 2.4em; */
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card {
@@ -25,7 +38,7 @@ body {
 
 .accordion-container {
   width: 89%;
-  margin-bottom: 40px;
+  margin-bottom: 2.5em;
 }
 
 .accordion-container h1 {
@@ -55,10 +68,10 @@ body {
   background-position: center;
   background-size: 14.5rem;
   position: center;
-  width: 240px;
-  height: 196px;
-  margin-top: -6.7rem;
-  margin-right: 25px;
+  width: 15em;
+  height: 12.25em;
+  margin-top: -106px;
+  margin-right: 1.5em; /* 25px */
 }
 
 .bg-pattern {
@@ -66,13 +79,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 13rem;
-  width: 240px;
-  height: 104px;
+  width: 15em;
+  height: 6.5em;
   margin-top: -6rem;
 }
 
 details > summary {
-  padding: 10px 0;
+  padding: 1em 0;
   list-style: none;
   font-size: 12px;
   display: flex;
@@ -89,7 +102,7 @@ details[open] > summary {
 }
 
 details > p {
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
   color: hsl(240, 6%, 50%);
 }
 
