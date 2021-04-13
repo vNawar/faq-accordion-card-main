@@ -20,7 +20,6 @@ body {
 }
 
 .wrapper {
-  /* margin-top: 2.4em; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,28 +59,6 @@ body {
 
 .accordion-question {
   margin: 0;
-}
-
-.illustraion-women {
-  background-image: url(../images/illustration-woman-online-mobile.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 14.5rem;
-  position: center;
-  width: 15em;
-  height: 12.25em;
-  margin-top: -106px;
-  margin-right: 1.5em; /* 25px */
-}
-
-.bg-pattern {
-  background-image: url(../images/bg-pattern-mobile.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 13rem;
-  width: 15em;
-  height: 6.5em;
-  margin-top: -6rem;
 }
 
 details > summary {
@@ -138,5 +115,67 @@ details[open] .accordion-answer {
   }
   100% {
     opacity: 1;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 800px) {
+  .illustraion-women {
+    background-image: url(../images/illustration-woman-online-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14.5rem;
+    width: 15em;
+    height: 12.25em;
+    margin-top: -106px;
+    margin-right: 1.5em; /* 25px */
+  }
+
+  .bg-pattern {
+    background-image: url(../images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13rem;
+    width: 15em;
+    height: 6.5em;
+    margin-top: -6rem;
+  }
+}
+
+/* Desktop View */
+@media (min-width: 801px) {
+  .card {
+    flex-direction: row;
+    min-width: 65%;
+  }
+
+  .accordion-container {
+    padding: 40px 70px 40px 50px;
+  }
+
+  .accordion-item {
+    font-size: 16px;
+  }
+
+  details > summary {
+    font-size: 16px;
+  }
+
+  .container {
+    display: flex;
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  .illustraion-women {
+    background-image: url(../images/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .bg-pattern {
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
