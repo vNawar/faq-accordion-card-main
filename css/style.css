@@ -80,6 +80,7 @@ details[open] > summary {
 
 details > p {
   margin-bottom: 0.625em;
+  /* max-width: 36.25rem; */
   color: hsl(240, 6%, 50%);
 }
 
@@ -95,7 +96,7 @@ details[open] > summary::after {
 /* Animation */
 details[open] .accordion-answer {
   animation-name: invisiblyGrowFontSize, fadeIn;
-  animation-duration: 200ms, 75ms;
+  animation-duration: 200ms, 100ms;
   animation-delay: 0ms, 200ms;
 }
 
@@ -161,6 +162,10 @@ details[open] .accordion-answer {
     font-size: 16px;
   }
 
+  .card {
+    max-width: 50%;
+  }
+
   .container {
     display: flex;
     margin-top: 0;
@@ -171,11 +176,17 @@ details[open] .accordion-answer {
     background-image: url(../images/illustration-woman-online-desktop.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 14.5rem;
+    width: 29.5em;
+    width: 22.4375em;
   }
 
   .bg-pattern {
     background-image: url(../images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 14.5rem;
+    width: 60.375em;
+    height: 59.0625em;
   }
 }
